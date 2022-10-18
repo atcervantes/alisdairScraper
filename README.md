@@ -112,8 +112,8 @@ Download and install the following technologies:
 3. Enter your API in `index.js`
    ```js
     const API_KEY = 'ENTER YOUR API'
-    const loginMail = 'ENTER YOUR USER NAME'
-    const loginPassword = 'ENTER YOUR PASSWORD'
+    const LOGIN_MAIL = 'ENTER YOUR USER NAME'
+    const LOGIN_PASSWORD = 'ENTER YOUR PASSWORD'
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
