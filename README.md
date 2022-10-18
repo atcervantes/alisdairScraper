@@ -96,41 +96,36 @@ Simple scraper to fetch data from a website and push the data to ReatailOps
 
 Download and install the following technologies:
 
-* [Git] (https://gitforwindows.org/)
-* [node.js](http://nodejs.org/)
+* [node.js](https://nodejs.org/en/download/)
 
 ### Installation
 
-1. Clone the repo in the directory you want the script to reside.
-   ```sh
-   git clone https://github.com/atcervantes/swarovskioptikScraper.git
-   ```
-2. Install NPM packages
+1. Install NPM packages
    ```sh
    npm install
    ```
-3. Enter your API in `index.js`
+2. Enter your API in `index.js`
    ```js
     const API_KEY = 'ENTER YOUR API'
     const LOGIN_MAIL = 'ENTER YOUR USER NAME'
     const LOGIN_PASSWORD = 'ENTER YOUR PASSWORD'
    ```
+3. Run the following command. The number after index.js is the page group that will be visited.
+```
+  node index.js 1
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Simply run the following command specyfing the batch number that you want to run.
-
 You can configure the pages that will be visited by adding them to the batch_1.conf or batch_2.conf files.
+Currently they represent the categories from the swarovski optik website.
 
-```js
-node index.js 1
 
-```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
