@@ -144,7 +144,7 @@ async function run() {
 <!-- CONTACT -->
 ## Contact
 
-Angel Cervantes - [@atcervantes](https://twitter.com/atcervantes) - angel.cervantes.x@gmail.com@angel.cervantes.x@gmail.com.com
+Angel Cervantes - [@atcervantes](https://twitter.com/atcervantes) - angel.cervantes.x@gmail.com
 
 Project Link: [https://github.com/atcervantes/swarovskioptikScraper](https://github.com/atcervantes/swarovskioptikScraper)
 
