@@ -4,7 +4,7 @@ const fs = require('fs');
 const { exit } = require('process');
 
 const API_KEY = 'ENTER YOUR API'
-const LOGIN_MAIL = 'ENTER YOUR USER NAME'
+const LOGIN_MAIL = 'ENTER YOUR EMAIL'
 const LOGIN_PASSWORD = 'ENTER YOUR PASSWORD'
 
 let url = "https://b2b.swarovskioptik.com/s/";
@@ -33,12 +33,14 @@ async function run() {
     }
     await page.goto(url, gotoProperties);
     await page.waitForSelector('.input', { visible: true, timeout: 0 });
+    
+    let credentials = [LOGIN_MAIL, LOGIN_PASSWORD];
 
     await page.evaluate(_ => {
-        data.loginMail = LOGIN_MAIL;
-        data.loginPW = LOGIN_PASSWORD;
+        data.loginMail = _[0];
+        data.loginPW = _[1];
         login();
-    });
+    }, credentials);
 
     await page.waitForSelector('button > lightning-icon > lightning-primitive-icon > svg', { visible: true, timeout: 0 });
 
@@ -46,6 +48,8 @@ async function run() {
     // Gather all products
     for (i = 0; i<categories.length; i++) {
 
+        if(categories[i].length==0)
+            continue;
         await page.goto(categories[i], gotoProperties)
         console.log("Visiting ", categories[i]);
 
@@ -120,6 +124,7 @@ async function run() {
         if (!err && res.statusCode == 200) {
             const info = JSON.parse(body);
             console.log(JSON.stringify(info));
+            fs.writeFile(`tmp/api-result-${batchNumber}.json`, JSON.stringify(info, null, "\t"), (err) => { if(err) throw err; console.log('File created') } );
           }else{
               console.log(err.body)
           } 

@@ -1,0 +1,338 @@
+[
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "EL-1R4L20-02",
+		"unit_cost": 1100.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "EL-1H4L20-02",
+		"unit_cost": 1112.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1M2LIC-0",
+		"unit_cost": 393.75,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1M2LH0-0",
+		"unit_cost": 393.75,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1F2LLA-0",
+		"unit_cost": 1400.25,
+		"quantity": 10
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1L2LLA-0",
+		"unit_cost": 1400.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "NL-1F4LIB-0",
+		"unit_cost": 1293.75,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "NL-1F4LB0-0",
+		"unit_cost": 1293.75,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "NL-1L4LIB-0",
+		"unit_cost": 1318.5,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "NL-1L4LB0-0",
+		"unit_cost": 1318.5,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "RF-1H3LB0-0",
+		"unit_cost": 1875,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "RF-1R3LB0-0",
+		"unit_cost": 1824.75,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1E2LHA-01",
+		"unit_cost": 412.5,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1E2LBA-01",
+		"unit_cost": 412.5,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1E2LHA-02",
+		"unit_cost": 412.5,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1E2LBA-02",
+		"unit_cost": 412.5,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1P2LHA-01",
+		"unit_cost": 437.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1P2LBA-01",
+		"unit_cost": 437.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1P2LHA-02",
+		"unit_cost": 437.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1P2LBA-02",
+		"unit_cost": 437.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1L2LHA-21",
+		"unit_cost": 662.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1F2LHA-21",
+		"unit_cost": 650.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1L2LBA-21",
+		"unit_cost": 662.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1F2LBA-21",
+		"unit_cost": 650.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1L2LHA-22",
+		"unit_cost": 662.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1L2LBA-20",
+		"unit_cost": 662.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1F2LBA-20",
+		"unit_cost": 650.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1L2LBA-22",
+		"unit_cost": 662.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1F2LHA-22",
+		"unit_cost": 650.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "EL-1S4L20-01",
+		"unit_cost": 1487.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "EL-1Q4L20-01",
+		"unit_cost": 1475.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1F2LBA-22",
+		"unit_cost": 650.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "LC-1J4L20-0",
+		"unit_cost": 1231.5,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "LC-1G4L20-0",
+		"unit_cost": 1168.5,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "LC-1K4L20-0",
+		"unit_cost": 1194,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1L2LHA-20",
+		"unit_cost": 662.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "PO-1F2LHA-20",
+		"unit_cost": 650.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "DF-1H1M90-0",
+		"unit_cost": 606,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "DF-1H1M20-0",
+		"unit_cost": 662.25,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "DF-1C0M20-0",
+		"unit_cost": 624.75,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "DF-1F1M90-0",
+		"unit_cost": 537.75,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "RF-1H3LIA-02",
+		"unit_cost": 1875,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "RF-1R3LIA-02",
+		"unit_cost": 1824.75,
+		"quantity": 0
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "NL-1H4LB0-0",
+		"unit_cost": 1569,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "DF-1C0M90-0",
+		"unit_cost": 506.25,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "NL-1R4LB0-0",
+		"unit_cost": 1537.5,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "NL-1S4LB0-0",
+		"unit_cost": 1593.75,
+		"quantity": 1
+	},
+	{
+		"active": 1,
+		"vendor_name": "Swarovski",
+		"vpc": "SF-1E2EB0-0",
+		"unit_cost": 825,
+		"quantity": 10
+	}
+]
