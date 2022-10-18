@@ -4,8 +4,8 @@ const fs = require('fs');
 const { exit } = require('process');
 
 const API_KEY = 'ENTER YOUR API'
-const loginMail = 'ENTER YOUR USER NAME'
-const loginPassword = 'ENTER YOUR PASSWORD'
+const LOGIN_MAIL = 'ENTER YOUR USER NAME'
+const LOGIN_PASSWORD = 'ENTER YOUR PASSWORD'
 
 let url = "https://b2b.swarovskioptik.com/s/";
 const batchNumber = process.argv.slice(2)[0];
@@ -22,8 +22,8 @@ let metadata = [];
 
 async function run() {
     const browser = await puppeteer.launch({
-        headless: false,
-        slowMo: 250, // slow down by 250ms
+        headless: true,
+        slowMo: 250,
         //defaultViewport: {width: 1920, height: 4000}
     });
     const page = await browser.newPage();
@@ -35,8 +35,8 @@ async function run() {
     await page.waitForSelector('.input', { visible: true, timeout: 0 });
 
     await page.evaluate(_ => {
-        data.loginMail = loginMail;
-        data.loginPW = loginPassword;
+        data.loginMail = LOGIN_MAIL;
+        data.loginPW = LOGIN_PASSWORD;
         login();
     });
 

@@ -18,11 +18,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 <h3 align="center">SwarovskiOptikScraper</h3>
@@ -33,11 +33,11 @@
     <a href="https://github.com/atcervantes/swarovskioptikScraper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/atcervantes/swarovskioptikScraper">View Demo</a>
+    <!-- <a href="https://github.com/atcervantes/swarovskioptikScraper">View Demo</a>
     ·
     <a href="https://github.com/atcervantes/swarovskioptikScraper/issues">Report Bug</a>
     ·
-    <a href="https://github.com/atcervantes/swarovskioptikScraper/issues">Request Feature</a>
+    <a href="https://github.com/atcervantes/swarovskioptikScraper/issues">Request Feature</a> -->
   </p>
 </div>
 
@@ -100,7 +100,7 @@ Download and install the following technologies:
 
 ### Installation
 
-1. Install NPM packages
+1. Under the project folder install the NPM packages
    ```sh
    npm install
    ```
@@ -124,7 +124,18 @@ Download and install the following technologies:
 You can configure the pages that will be visited by adding them to the batch_1.conf or batch_2.conf files.
 Currently they represent the categories from the swarovski optik website.
 
+### Graphic Mode
 
+You can turn on/off the UI to see how the Browser is scraping the website by toggling the property `headless` (true/false) in the file `index.js`.
+
+```js
+async function run() {
+    const browser = await puppeteer.launch({
+        headless: false,
+        slowMo: 250, // slow down by 250ms
+        //defaultViewport: {width: 1920, height: 4000}
+    });
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
