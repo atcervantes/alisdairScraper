@@ -3,11 +3,15 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const { exit } = require('process');
 
+const API_KEY = 'ENTER YOUR API'
+const loginMail = 'ENTER YOUR USER NAME'
+const loginPassword = 'ENTER YOUR PASSWORD'
+
 let url = "https://b2b.swarovskioptik.com/s/";
 const batchNumber = process.argv.slice(2)[0];
 
 if(batchNumber === undefined){
-    console.log('Please define the batch number');
+    console.log('Please specify the batch number');
     exit()
 }
 
@@ -31,8 +35,8 @@ async function run() {
     await page.waitForSelector('.input', { visible: true, timeout: 0 });
 
     await page.evaluate(_ => {
-        data.loginMail = '${{loginMail}}';
-        data.loginPW = '${{loginPassword}}';
+        data.loginMail = loginMail;
+        data.loginPW = loginPassword;
         login();
     });
 
@@ -105,7 +109,7 @@ async function run() {
         url: 'https://api.retailops.com/product/externalsku/update~2.json',
         headers: {
             'Content-Type' : 'application/json',
-            'apikey' : 'DcC3rznu-MmvQIHpxtBVBGEu7nrT4AZtEulTUrCAO',
+            'apikey' : API_KEY,
             'User-Agent' : 'scraper/1.0'
         },
         body: JSON.stringify(bodyRequest)

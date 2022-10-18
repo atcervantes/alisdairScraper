@@ -1,5 +1,5 @@
 {
-  "name": "pupeteerproject",
+  "name": "swarovskioptikscraper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "author": "Angel Cervantes",
   "license": "ISC",
   "dependencies": {
-    "pupeteer": "^0.0.1",
     "puppeteer": "^18.2.1",
     "request": "^2.88.2"
   }
