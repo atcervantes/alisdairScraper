@@ -25,19 +25,19 @@
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
-<h3 align="center">SwarovskiOptikScraper</h3>
+<h3 align="center">alisdairScraper</h3>
 
   <p align="center">
     Simple scraper to fetch data from a website and push the data to ReatailOps
     <br />
-    <a href="https://github.com/atcervantes/swarovskioptikScraper"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/atcervantes/alisdairScraper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="https://github.com/atcervantes/swarovskioptikScraper">View Demo</a>
+    <!-- <a href="https://github.com/atcervantes/alisdairScraper">View Demo</a>
     ·
-    <a href="https://github.com/atcervantes/swarovskioptikScraper/issues">Report Bug</a>
+    <a href="https://github.com/atcervantes/alisdairScraper/issues">Report Bug</a>
     ·
-    <a href="https://github.com/atcervantes/swarovskioptikScraper/issues">Request Feature</a> -->
+    <a href="https://github.com/atcervantes/alisdairScraper/issues">Request Feature</a> -->
   </p>
 </div>
 
@@ -122,7 +122,7 @@ Download and install the following technologies:
 ## Usage
 
 You can configure the pages that will be visited by adding them to the batch_1.conf or batch_2.conf files.
-Currently they represent the categories from the swarovski optik website.
+Currently they represent the categories from a specific website.
 
 ### Graphic Mode
 
@@ -146,7 +146,7 @@ async function run() {
 
 Angel Cervantes - [@atcervantes](https://twitter.com/atcervantes) - angel.cervantes.x@gmail.com
 
-Project Link: [https://github.com/atcervantes/swarovskioptikScraper](https://github.com/atcervantes/swarovskioptikScraper)
+Project Link: [https://github.com/atcervantes/alisdairScraper](https://github.com/atcervantes/alisdairScraper)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
